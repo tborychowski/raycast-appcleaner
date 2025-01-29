@@ -1,3 +1,5 @@
-# AppCleaner Changelog
+# App Cleaner Changelog
 
-## [Initial Version] - {PR_MERGE_DATE}
+## [Initial Version] - 2025-01-30
+
+- First version of App Cleaner
