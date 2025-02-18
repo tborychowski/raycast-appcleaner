@@ -30,6 +30,10 @@ export class AppManager {
         if (deepEqual(_apps, apps)) return; // no changes
         this.saveCache(_apps);
         this.emitter.emit("update", _apps);
+      })
+      .catch((error) => {
+        console.error("Failed to fetch or process applications:", error);
+        this.emitter.emit("error", error);
       });
   }
 
