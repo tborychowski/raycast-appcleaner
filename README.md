@@ -8,6 +8,7 @@ Uninstall apps with AppCleaner, Pearcleaner or TrashMe 3.
 The list of the apps is fetched using Raycast's API.
 If you just installed an app and it's not showing up in the list, try restarting Raycast.
 
+
 ### Why is my uninstaller app not supported?
 This script supports AppCleaner, Pearcleaner and TrashMe 3. If you have an uninstaller app that you would like to see supported, please open an issue [here](https://github.com/tborychowski/raycast-appcleaner/issues).
 
