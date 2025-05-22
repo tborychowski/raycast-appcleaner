@@ -8,7 +8,7 @@ import { UNINSTALLERS } from "./constants";
 
 export class Uninstaller {
   /**
-   * Find an uninstaller app. (try the preffered first, and if not found, try the others)
+   * Find an uninstaller app. (try the preferred first, and if not found, try the others)
    * @returns The uninstaller app or undefined if none is found.
    */
   static async getUninstaller(): Promise<UninstallerApp | undefined> {
@@ -29,7 +29,7 @@ export class Uninstaller {
   }
 
   /**
-   * Checks is an uninstaller app is available.
+   * Checks if an uninstaller app is available.
    * @returns A promise that resolves if an uninstaller app is found, otherwise it rejects.
    */
   static checkDependencies(): Promise<void> {
