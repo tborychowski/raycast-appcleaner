@@ -3,7 +3,7 @@
 ## [New uninstaller] - {PR_MERGE_DATE}
 - Add support for App Cleaner & Uninstaller by Nektony
 
-## [New uninstallers] - 2025-03-02
+## [New uninstaller] - 2025-03-02
 - Add support for TrashMe 3
 
 ## [Bugfixing] - 2025-02-16
