@@ -16,8 +16,8 @@ export class Uninstaller {
     const uninstallers = Array.from(UNINSTALLERS);
 
     if (preferred) {
-      // sort uninstallers so that the preferred is first
-      uninstallers.sort((a, b) => (a.id === preferred ? -1 : b.id === preferred ? 1 : 0));
+      preferred.id = preferred.bundleId;
+      uninstallers.unshift(preferred);
     }
 
     // return the first one that exists
