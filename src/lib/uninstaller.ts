@@ -16,8 +16,15 @@ export class Uninstaller {
     const uninstallers = Array.from(UNINSTALLERS);
 
     if (preferred) {
-      preferred.id = preferred.bundleId;
-      uninstallers.unshift(preferred);
+      if (preferred) {
+        uninstallers.unshift({
+          id: preferred.bundleId ?? preferred.name,
+          name: preferred.name,
+          path: preferred.path,
+          url: "",
+          icon: "",
+        });
+      }
     }
 
     // return the first one that exists
